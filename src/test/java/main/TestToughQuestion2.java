@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestToughQuestion2 {
 	Calories cal=new Calories(); 
-	@SuppressWarnings("static-access")
+	@SuppressWarnings({ "static-access" })
     @Test
 	public void testBreadCalorie() {
 		assertEquals(148,cal.calculateCalories(2));
